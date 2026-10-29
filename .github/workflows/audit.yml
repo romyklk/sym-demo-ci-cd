@@ -1,0 +1,11 @@
+name: Audit du code
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - develop
+jobs:
+  audit:
